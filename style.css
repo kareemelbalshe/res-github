@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Tahoma, Arial;
+}
+.repos-container{
+    width: 766px;
+    background-color: #f6f6f6;
+    margin: auto;
+}
+.repos-container .get-repos{
+    padding: 20px;
+    display: flex;
+    background-color: #eee;
+}
+.repos-container .get-repos input{
+    width: 100%;
+    padding: 15px 20px;
+    border: none;
+    font-size: 30px;
+    height: 70px;
+    outline: none;
+}
+.repos-container .get-repos .get-button{
+    width: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-left: 20px solid #eee;
+    cursor: pointer;
+    color: orange;
+}
+.repos-container .show-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    background-color: #e0e0e0;
+    color: #009688;
+    text-align: center;
+    font-size: 20px;
+    font-family: 1.6;
+}
+.repos-container .show-data .data{
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+}
+.repos-container .show-data a{
+    text-decoration: none;
+    margin: 10px;
+    font-size: 25px;
+    color: #E91E63;
+}
